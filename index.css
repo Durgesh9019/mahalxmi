@@ -1,0 +1,225 @@
+ .navbar-brand
+      {
+        margin-left: 40px;
+        padding-top: 10px;
+      }
+      .navbar-nav, .nav-item
+      {
+        font-weight: bold;
+        padding-left: 30px;
+        text-transform: uppercase;
+      }
+      .dropdown-menu, .dropdown-item
+      {
+        font-weight: bold;
+        padding-top: 1px;
+      }
+      #concreateimg
+      {
+        border-radius: 10px;
+        border: 3px solid black;
+      }
+      #conhead
+      {
+        font-weight: 700;
+        color: black;
+        font-size: 40px;
+
+      }
+      #conpara
+      {
+        display: block;
+         margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: 15px;
+        letter-spacing: 0.40px;
+        line-height: 24px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        font-weight: bold;
+      }
+      #conbtn
+      {
+        display: inline-block;
+        margin-top: 15px;
+        width: 130px;
+        height: 50px;
+        background-color: #F58220;
+        border-radius: 3px;
+        font-weight: bold;
+        color: white;
+      }
+      #conbtn:hover
+      {
+        background-color: white;
+        color:#F58220;
+        border: 2px solid #F58220;
+      }
+      #conbtn1
+      {
+        display: inline-block;
+        margin-top: 15px;
+        width: 120px;
+        height: 40px;
+        background-color: #F58220;
+        border-radius: 3px;
+        font-weight: bold;
+        color: white;
+        margin-left: 270px;
+      }
+      #conbtn1:hover
+      {
+        background-color: white;
+        color:#F58220;
+        border: 2px solid #F58220;
+      }
+      #Expertise
+      {
+        font-weight: 700;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+
+      }
+      .headercontent
+      {
+        width: 100%;
+        height: 30px;
+        background-color: black;
+      }
+      #footerpara a
+      {
+        color: white;
+        word-spacing: 4px;
+      }
+      .fa {
+  padding: 20px 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: 50px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 100%;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  border-radius: 100%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 100%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius: 100%;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 100%;
+}
+.headnav
+            {
+                width: 100%;
+                height: 40px;
+                background-color: black;
+                position: relative;
+            }
+            .material-icons
+            {
+                color: orange;
+                margin-left: 180px;
+                padding-top: 8px;
+                position: absolute;
+                font-size: 10px;
+            }
+            #emil{
+               position: absolute;
+               left: 210px;
+               padding-top: 7px;
+               color: white;
+            }
+            #icon2
+            {
+                margin-left: 500px;
+            }
+            #emil2{
+               position: absolute;
+               left: 530px;
+               padding-top: 7px;
+               color: white;
+           }
+           #logobox
+           {
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+            display: inline;
+
+           }
+           #logobox img
+           {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 30px;
+            display: 
+           }
+           
+
+
+      @media only screen and (max-width: 768px) {
+        .navbar-nav, .nav-item
+        {
+          padding-left: 0px;
+          padding-top: 3px;
+        }
+        .navbar-brand
+        {
+          margin-left: 0px;
+        }
+        .carousel-inner
+        {
+          height: 250px;
+        }
+        #concreateimg
+        {
+          width: 280px;
+          height: 250px;
+          margin-left: 0px;
+        }
+        .headnav
+        {
+            display: none;
+        }
+         #conbtn1
+         {
+          margin-left: 0px;
+          
+         }
+         #logobox
+         {
+            display: none;
+         }
+
+        
+      }
